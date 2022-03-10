@@ -1,15 +1,15 @@
 <script setup>
-import { ref } from 'vue'
+  import { ref } from "vue";
 
-defineProps({
-  msg: String
-})
+  defineProps({
+    msg: String,
+  });
 
-const count = ref(0)
+  const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 class="text-red-500">{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
@@ -34,7 +34,7 @@ const count = ref(0)
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
-}
+  a {
+    color: #42b983;
+  }
 </style>
